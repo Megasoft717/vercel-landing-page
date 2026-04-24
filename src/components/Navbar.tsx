@@ -4,13 +4,14 @@ const Navbar = () => {
     return (
         <header className="flex justify-between px-9 pt-4 items-center w-full">
             <div className="flex gap-8">
-                <div className="pt-2">
+                <div className="flex translate-y-2">
                     <svg
                         width="90"
                         height="18"
                         viewBox="0 0 76 65"
                         fill="none" xmlns="http://www.w3.org/2000/svg"><path
                             d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#000000" /></svg>
+                    <span className="font-semibold -translate-x-6 -translate-y-0.5">Megasoft717</span>
                 </div>
                 <ul className="flex">
                     {navbarItems.map((item, index) => (
